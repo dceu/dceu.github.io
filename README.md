@@ -2,11 +2,11 @@
 Personal Website to establish and document online presence.
 
 ## To Do
--[ ] Site Content 
+- [ ] Site Content 
 -	[ ] Blog
 -	[ ] Portfolio
 	
--[ ] Theme Development
+- [ ] Theme Development
 -  [ ] Select Hugo Theme
 -  [ ] Branding Elements:
 -  [ ] Font
