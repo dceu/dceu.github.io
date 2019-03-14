@@ -6,9 +6,9 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="description" content="The Mario Journey Divided into 7 problem sets or psets as referenced in the originial [repo](), Mario is the application that students will code in [Launchcode&amp;rsquo;s Java Class](). I will publish my walkthrough here, beginning with pset1.
+<meta name="description" content="The Mario Journey Divided into 7 problem sets or psets as referenced in the originial repo, Mario is the application that students will code. I will publish my walkthrough here, beginning with pset1.
 First Fork The first step, as noted by the README.md is to fork the original repository. A guide to how to do that can be found here.
-ok got it. Check out my fork."/>
+ok got it. Check out my fork. Going to add ToDos along with each pset to make it easier to just dig in and code."/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
 <link rel="canonical" href="/posts/mario/" />
@@ -31,9 +31,9 @@ ok got it. Check out my fork."/>
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Mario: A Launchcode Problem Set :: Terminal — A simple, retro theme for Hugo" />
-<meta name="twitter:description" content="The Mario Journey Divided into 7 problem sets or psets as referenced in the originial [repo](), Mario is the application that students will code in [Launchcode&amp;rsquo;s Java Class](). I will publish my walkthrough here, beginning with pset1.
+<meta name="twitter:description" content="The Mario Journey Divided into 7 problem sets or psets as referenced in the originial repo, Mario is the application that students will code. I will publish my walkthrough here, beginning with pset1.
 First Fork The first step, as noted by the README.md is to fork the original repository. A guide to how to do that can be found here.
-ok got it. Check out my fork." />
+ok got it. Check out my fork. Going to add ToDos along with each pset to make it easier to just dig in and code." />
 <meta name="twitter:site" content="/" />
 <meta name="twitter:creator" content="" />
 <meta name="twitter:image" content="">
@@ -42,9 +42,9 @@ ok got it. Check out my fork." />
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Mario: A Launchcode Problem Set :: Terminal — A simple, retro theme for Hugo">
-<meta property="og:description" content="The Mario Journey Divided into 7 problem sets or psets as referenced in the originial [repo](), Mario is the application that students will code in [Launchcode&amp;rsquo;s Java Class](). I will publish my walkthrough here, beginning with pset1.
+<meta property="og:description" content="The Mario Journey Divided into 7 problem sets or psets as referenced in the originial repo, Mario is the application that students will code. I will publish my walkthrough here, beginning with pset1.
 First Fork The first step, as noted by the README.md is to fork the original repository. A guide to how to do that can be found here.
-ok got it. Check out my fork." />
+ok got it. Check out my fork. Going to add ToDos along with each pset to make it easier to just dig in and code." />
 <meta property="og:url" content="/posts/mario/" />
 <meta property="og:site_name" content="Mario: A Launchcode Problem Set" />
 <meta property="og:image" content="">
@@ -87,7 +87,7 @@ ok got it. Check out my fork." />
     
       
         
-          <li><a href="/about">About</a></li>
+          <li><a href="/about/index.html">About</a></li>
         
       
         
@@ -113,7 +113,7 @@ ok got it. Check out my fork." />
   <ul class="menu__inner menu__inner--mobile">
     
       
-        <li><a href="/about">About</a></li>
+        <li><a href="/about/index.html">About</a></li>
       
     
       
@@ -143,6 +143,14 @@ ok got it. Check out my fork." />
     </div>
 
     
+      <span class="post-tags">
+        
+          #<a href="/tags/launchcode/">Launchcode</a>&nbsp;
+        
+          #<a href="/tags/java/">Java</a>&nbsp;
+        
+      </span>
+    
 
     
 
@@ -151,7 +159,7 @@ ok got it. Check out my fork." />
 
 <h1 id="the-mario-journey">The Mario Journey</h1>
 
-<p>Divided into 7 problem sets or <em>psets</em> as referenced in the originial [repo](), <strong>Mario</strong> is the application that students will code in [Launchcode&rsquo;s Java Class]().
+<p>Divided into 7 problem sets or <em>psets</em> as referenced in the originial <a href="https://github.com/mpmenne/launchcode-java-class">repo</a>, <strong>Mario</strong> is the application that students will code.
 I will publish my walkthrough here, beginning with pset1.</p>
 
 <h2 id="first-fork">First Fork</h2>
@@ -161,6 +169,8 @@ I will publish my walkthrough here, beginning with pset1.</p>
 <h3 id="ok-got-it-https-github-com-dceu-launchcode-java-class">ok got <a href="https://github.com/dceu/launchcode-java-class">it</a>.</h3>
 
 <p>Check out my fork. Going to add ToDos along with each pset to make it easier to just dig in and code. Maybe these will get pushed to the orignial branch. I&rsquo;ll send that &ldquo;push&rdquo; request after I finish this walkthrough.</p>
+
+<hr />
 
 <h2 id="pset-1">Pset 1</h2>
 
@@ -192,6 +202,7 @@ I will publish my walkthrough here, beginning with pset1.</p>
 <p>Ok, so the prompt can be as simple as:</p>
 
 <pre><code class="language-java">System.out.println(&quot;enter a height: &quot;);
+
 </code></pre>
 
 <p>Not, necessarily, the most enthusiastic greeting regarding UX, but I&rsquo;ll let your iterations present jubilation.</p>
@@ -200,17 +211,21 @@ I will publish my walkthrough here, beginning with pset1.</p>
 
 <p>For the user-input, we&rsquo;ll be invoking the Scanner object and looking for an integer. The method will look similar to:</p>
 
-<pre><code class="language-java">public static int scanHeigh() {
+<pre><code class="language-java">public static int scanHeight() {
 	Scanner input = new Scanner(System.in);
-	int height = input.nextIng();
+	int height = input.nextInt();
 	return height;
 }
+
 </code></pre>
 
 <p><em>note: don&rsquo;t forget to add the Scanner import at the top of your java file:</em></p>
 
 <pre><code class="language-java">import java.util.Scanner
 ...
+public class Mariopset1{
+...
+}
 </code></pre>
 
 <h3 id="loops">loops</h3>
@@ -252,6 +267,28 @@ while  (isNotValid(height.pyramid);)
 	 }	
 }
 </code></pre>
+
+<h3 id="putting-it-all-together">Putting it all together</h3>
+
+<p>So once we have:
++ A prompt
++ A scanner that takes an int input
++ A loop, that prompts and enforces the range on input int
++ A method that prints the desired pyramid</p>
+
+<p>Our main method will look something like this:</p>
+
+<pre><code class="language-java">public static void main(String[] args) {
+	do {
+	prompt();
+	int height = getPyramidHeight();
+	}
+	while (isNotValid(height););
+	drawPyramid();
+}
+</code></pre>
+
+<p>I&rsquo;ll leave it to the readers to code out the methods.</p>
 
 <h3 id="and-that-s-the-gist-of-pset1">and that&rsquo;s the gist of pset1&hellip;</h3>
 

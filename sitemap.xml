@@ -46,7 +46,13 @@
   
   <url>
     <loc>/tags/java/</loc>
-    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-13T20:25:45-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/launchcode/</loc>
+    <lastmod>2019-03-13T20:25:45-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -75,13 +81,13 @@
   </url>
   
   <url>
-    <loc>/tags/project/</loc>
+    <loc>/categories/project/</loc>
     <lastmod>2015-08-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/project/</loc>
+    <loc>/tags/project/</loc>
     <lastmod>2015-08-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
