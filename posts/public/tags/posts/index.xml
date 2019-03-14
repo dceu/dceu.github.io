@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Terminal</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Mar 2019 20:25:45 -0500</lastBuildDate>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mario: A Launchcode Problem Set</title>
+      <link>/posts/mario/</link>
+      <pubDate>Wed, 13 Mar 2019 20:25:45 -0500</pubDate>
+      
+      <guid>/posts/mario/</guid>
+      <description>The Mario Journey Divided into 7 problem sets or psets as referenced in the originial [repo](), Mario is the application that students will code in [Launchcode&amp;rsquo;s Java Class](). I will publish my walkthrough here, beginning with pset1.
+First Fork The first step, as noted by the README.md is to fork the original repository. A guide to how to do that can be found here.
+ok got it. Check out my fork.</description>
+    </item>
+    
+    <item>
+      <title>Two Sum Algorithms</title>
+      <link>/posts/twosum/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/twosum/</guid>
+      <description>Introduction: This post begins my series on algorithms. We will explore a set of common problem archetypes, outline design elements, and finally analyze these solutions as coded in Java, along with the runtime complexity in Big O time.
+Problem Archetype: In the &amp;ldquo;Two Sum&amp;rdquo; problem, we are looking for two numbers that exist in a given array adding up to a given target number. For this instance, this array is unorderd, and has no dupes.</description>
+    </item>
+    
+    <item>
+      <title>MeetUp Challenge</title>
+      <link>/posts/meetupchallenge/</link>
+      <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/meetupchallenge/</guid>
+      <description>MeetUps Being a social-recluse, when not confined to the depths of the restaurant kitchen night shifts for the past 4~ish years, I&amp;rsquo;m accustomed to a certain workplace culture.
+So for the next 3 months, and perhaps into the next year, I have added Tampa Bay Tech MeetUps to my calendar. Groups among these include Tampa Bay Java User Group (TJUG), Tampa Bay Brigade, Thinkful Tampa, Tampa Bay Agile (acceptance pending), Tampa Python, Barcamp, and more.</description>
+    </item>
+    
+  </channel>
+</rss>
