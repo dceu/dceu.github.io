@@ -259,7 +259,7 @@ while  (isNotValid(height.pyramid);)
 
 <pre><code class="language-java">for (int i = 0; i &lt; height; i++){
 	System.out.println();
-	for (int s = height - 1; s &gt; 0; s--){
+	for (int s = height - i - 1; s &gt; 0; s--){ // the - i is important.
 		System.out.print(&quot; &quot;);
 	}
 	for (int h = 0; h &lt;= i + 1; h++){
@@ -292,8 +292,9 @@ while  (isNotValid(height.pyramid);)
 
 <h3 id="and-that-s-the-gist-of-pset1">and that&rsquo;s the gist of pset1&hellip;</h3>
 
-<p>But wait, it&rsquo;s Java after all, so why not code this pyramid as a seperate object, that the Mario.class can call upon to construct?
-I&rsquo;ll explore this version of the solution in <a href="/pset1ex.html">Mario: pset1 extended edition!</a></p>
+<p>You can check out my solution <a href="https://www.github.com/dceu/mario/pset1">here</a></p>
+
+<h1 id="happy-coding-see-you-in-pset2-mario2">Happy Coding, see you in <a href="../mario2">pset2</a></h1>
 
     </div>
     
@@ -306,8 +307,8 @@ I&rsquo;ll explore this version of the solution in <a href="/pset1ex.html">Mario
           
           
             <span class="button next">
-              <a href="/posts/twosum/">
-                <span class="button__text">Two Sum Algorithms</span>
+              <a href="/posts/mario2/">
+                <span class="button__text">Mario Pset2</span>
                 <span class="button__icon">→</span>
               </a>
             </span>
