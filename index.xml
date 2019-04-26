@@ -6,10 +6,20 @@
     <description>Recent content on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Mar 2019 20:25:45 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 17 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mario Pset3</title>
+      <link>/posts/mario3/</link>
+      <pubDate>Sun, 17 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/mario3/</guid>
+      <description>Mario Pset 3 Overview: In this problem set, we&amp;rsquo;re going to refactor so that a Pyramid class encapsulates the core logic. Next, ensure that the printer interface only accepts Pyramids. Will implement a &amp;ldquo;toString&amp;rdquo; method on the Pyramid object, overriding the methods inherited from the Object class built in to Java. Finally we&amp;rsquo;re going to implement the Factory Design Pattern to hide the instatiation of the Pyramid objects.
+Pyramid object In Java, everything is a sublcass of the Object class, and inherits all of its methods.</description>
+    </item>
     
     <item>
       <title>Mario: A Launchcode Problem Set</title>
@@ -66,7 +76,8 @@ So for the next 3 months, and perhaps into the next year, I have added Tampa Bay
       <pubDate>Mon, 17 Jan 1994 08:32:00 -0500</pubDate>
       
       <guid>/about/</guid>
-      <description>About Me I&amp;rsquo;m 25. Dropped out of college at the end of 2015. It was expensive. Figured I could learn at least the C.S. side of my Computer Engineering free of charge, bureaucracy, and exam anxiety. Funny though, I have an open tab to view the correct spelling of &amp;ldquo;bureaucracy&amp;rdquo; and the most Java I ever learned was from a Udemy Course . I guess certain structures work for me.</description>
+      <description>Hello World! My name is Donovan. I&amp;rsquo;m 25, residing in Tampa, Florida seeking opportunities in Software Development. I have been learning Java from this Udemy class, and doing work with Launchcode.tv
+This site is Powered by Hugo, a static website generator similar to Jekyll, but powered by GO, not Ruby. This is my site. I&amp;rsquo;ll blog, retheme, muse, or whatever here. Mostly, I&amp;rsquo;ll be working with towards landing an apprenticeship through Launchcode.</description>
     </item>
     
   </channel>
