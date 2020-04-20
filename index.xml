@@ -6,10 +6,31 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2020 08:32:00 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Welcome</title>
+      <link>/about/</link>
+      <pubDate>Mon, 20 Apr 2020 08:32:00 -0500</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hello World! My name is Donovan. I&amp;rsquo;m 25, residing in Tampa, Florida seeking opportunities in Software Development. I have been learning Java from this Udemy class, and doing work with Launchcode.tv
+This site is Powered by Hugo, a static website generator similar to Jekyll, but powered by GO, not Ruby. This is my site. I&amp;rsquo;ll blog, retheme, muse, or whatever here. You can track that progress on github
+ </description>
+    </item>
+    
+    <item>
+      <title>Summer 2019 Update</title>
+      <link>/summer2k19update/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/summer2k19update/</guid>
+      <description>It&amp;rsquo;s already June. Yikes. Halfway to 2020, i
+Conclusion: Prospect possible positive outcomes with said practice and propose possible challenges to principle.</description>
+    </item>
     
     <item>
       <title>Mario Pset3</title>

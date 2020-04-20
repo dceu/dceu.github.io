@@ -6,10 +6,20 @@
     <description>Recent content in post on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Summer 2019 Update</title>
+      <link>/summer2k19update/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/summer2k19update/</guid>
+      <description>It&amp;rsquo;s already June. Yikes. Halfway to 2020, i
+Conclusion: Prospect possible positive outcomes with said practice and propose possible challenges to principle.</description>
+    </item>
     
     <item>
       <title>Two Sum Algorithms</title>
