@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Algorithms on Terminal</title>
+    <title>Algorithms on </title>
     <link>/tags/algorithms/</link>
-    <description>Recent content in Algorithms on Terminal</description>
+    <description>Recent content in Algorithms on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Dec 2018 00:00:00 +0000</lastBuildDate>

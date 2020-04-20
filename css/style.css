@@ -1,0 +1,248 @@
+/* Position */
+
+
+/* static ~ default
+relative ~ positions relative to where it would be in default position
+absolute ~ references most 'parental' explicitly position element
+fixed ~ references the documentviewport
+styicky ~ initial flow of document until top of viewport, then behaves like fixed
+
+ */
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+a.read-more {
+    font-family: 'Victor Mono', monospace;
+    font-style: italic;
+    color: rgba(35, 176, 225, 1);
+    float: right;
+    text-decoration: underline;
+    font-variant-ligatures: common-ligatures;    
+}
+
+a.read-more:visited {
+    text-decoration: line-through;
+}
+
+body {
+    max-width: 1340px;
+    padding: 0;
+    margin: 0;
+    background-color: #efefef;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+#main-nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 0;
+    padding: 11em 0 0 0;
+    height: 100%;
+    /* border-right: 1px solid #000; */
+    background-color: rgba(29, 33, 44, 1);
+    transition: 0.5s;
+    overflow: hidden;
+    z-index: 99;
+}
+
+#main-nav>ul {
+    list-style: none;
+}
+
+#main-nav>ul>li {
+    font-family: "TIActu-Beta-ExBold_web", Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    line-height: 2.35;
+    color: #fff;
+    transition: 0.75s;
+}
+
+#main-nav>ul>li:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+    transition: border 1.25s;
+}
+
+#profile-placeholder {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    position: relative;
+}
+
+#content {
+    position: relative;
+    margin-left: 26em;
+    padding: 0 0 0 4px;
+    max-width: 45em;
+    transition: 0.65s;
+}
+
+#page-content > * > a{
+    color: #66d9ef !important;
+    background-color: #272822;
+    
+}
+
+#page-content > * >a:hover{
+    font-style: italic !important;
+    color: #f92672 !important;
+    text-decoration: underline;
+}
+
+header {
+    font-family: 'Playfair Display', serif;
+    background-color: rgba(29, 33, 44, 1);
+    padding-right: 2em;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+    /* border-bottom: 1px solid #fff; */
+    /* width: 24.8s9rem; */
+}
+
+#branding {
+    transition: 0.5s;
+}
+
+header>h1 {
+    display: block;
+    font-size: 4em;
+    color: #fff;
+}
+
+#home {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+}
+
+header>#home-container {
+    padding: 0 10px;
+    /* border: 1px solid black; */
+    /* box-sizing: border-box; */
+    /* float: right; */
+}
+
+header>a:any-link {
+    color: #fff;
+}
+
+
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    /* display: block;
+    position: sticky;
+    left: 5px;
+    top: 1em; */
+    background-color: rgba(35, 176, 225, 1);
+    /* background-image: linear-gradient(to top, rgba(255, 255, 255, .79), rgba(255, 255, 255, 1)); */
+    padding: 2px 10px;
+    font-size: 3.25em;
+    box-shadow: -10px 10px rgba(29, 33, 44, .79);
+}
+
+h2 {
+    color: rgba(29, 33, 44, 1);
+    font-family: 'Abril Fatface', cursive;
+    display: block;
+    /* position: sticky;
+    left: 5px;
+    top: 1em; */
+    background-color: rgba(35, 176, 225, .95);
+    /* background-image: linear-gradient(to top, rgba(255, 255, 255, .79), rgba(255, 255, 255, 1)); */
+    padding: 2px 10px;
+    font-size: 2.75em;
+    box-shadow: -10px 10px rgba(29, 33, 44, .79);
+}
+
+p {
+    font-family: SwiftNeueLTW01, Georgia, serif;
+    font-size: 1.25em;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+    text-transform: none;
+    color: #444444;
+    padding-left: .75em;
+}
+
+
+code {
+    font-family: 'Victor Mono', monospace;
+    display: block;
+    text-align: left;
+    background-color: #272822;
+}
+
+.meta {
+    font-family: 'Victor Mono', monospace;
+    font-style: italic;
+    text-align: right;
+    color: rgba(44, 44, 44, .75);
+    font-size: .85rem;
+    float: right;
+}
+
+.openbtn {
+    font-size: 1.25em;
+    cursor: pointer;
+    background-color: rgba(29, 33, 44, 1);
+    border: 1px solid rgba(29, 33, 44, 1);
+    color: white;
+    padding: 10px 15px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    box-sizing: content-box;
+}
+
+.openbtn:hover {
+    border: 1px solid #fff;
+    box-sizing: content-box;
+}
+
+.openbtn:active {
+    border: none;
+}
+
+@media screen and (max-width: 900px) and (min-width: 320px) {
+    #content {
+        margin-left: 0;
+        margin-top: 4.25em;
+        overflow-x: hidden;
+    }
+    h1.title {
+        position: sticky;
+        font-size: 1.85em;
+        top: 3em;
+    }
+    h2.subtopic {
+        position: sticky;
+        font-size: 1.55em;
+        top: 2.85em;
+    }
+    header {
+        width: 100%;
+    }
+    /* #main-nav {
+        z-index: 10;
+    } */
+}

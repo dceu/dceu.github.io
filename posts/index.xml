@@ -1,15 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Terminal</title>
+    <title>Posts on </title>
     <link>/posts/</link>
-    <description>Recent content in Posts on Terminal</description>
+    <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Summer 2019 Update</title>
+      <link>/posts/summer2k19update/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/summer2k19update/</guid>
+      <description>It&amp;rsquo;s already June. Yikes. Halfway to 2020, i
+Conclusion: Prospect possible positive outcomes with said practice and propose possible challenges to principle.</description>
+    </item>
     
     <item>
       <title>Mario Pset3</title>
@@ -38,7 +48,7 @@ ok got it. Check out my fork. Going to add ToDos along with each pset to make it
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/mario2/</guid>
-      <description>pset 2 Overview: tag pset1 commit create a new branch refactor the Mario code to use proper Java packages Implement new functionality: print to console OR to a text file. Handle exceptions Implement the above functionality according to Strategy Design. Commit and push!  let&amp;rsquo;s go! Strategy Design To avoid future refactoring, and since we already have the print to console functionality coded, let&amp;rsquo;s add this new implementation with Stragegy Design in mind.</description>
+      <description>pset 2 Overview:  tag pset1 commit create a new branch refactor the Mario code to use proper Java packages Implement new functionality: print to console OR to a text file. Handle exceptions Implement the above functionality according to Strategy Design. Commit and push!  let&amp;rsquo;s go!  Strategy Design To avoid future refactoring, and since we already have the print to console functionality coded, let&amp;rsquo;s add this new implementation with Stragegy Design in mind.</description>
     </item>
     
     <item>

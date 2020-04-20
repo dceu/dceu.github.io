@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Terminal</title>
+    <title>Tags on </title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Terminal</description>
+    <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jan 1994 08:32:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About</title>
-      <link>/tags/about/</link>
-      <pubDate>Mon, 17 Jan 1994 08:32:00 -0500</pubDate>
+      <title>musing</title>
+      <link>/tags/musing/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/about/</guid>
+      <guid>/tags/musing/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Algorithms</title>
-      <link>/tags/algorithms/</link>
-      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      <title>Personal</title>
+      <link>/tags/personal/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/algorithms/</guid>
+      <guid>/tags/personal/</guid>
       <description></description>
     </item>
     
@@ -57,7 +57,25 @@
     </item>
     
     <item>
-      <title>Meetup</title>
+      <title>Algorithms</title>
+      <link>/tags/algorithms/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>/tags/test/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MeetUp</title>
       <link>/tags/meetup/</link>
       <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
       
@@ -66,25 +84,7 @@
     </item>
     
     <item>
-      <title>Meta</title>
-      <link>/tags/meta/</link>
-      <pubDate>Tue, 18 Aug 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/meta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Project</title>
-      <link>/tags/project/</link>
-      <pubDate>Tue, 18 Aug 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tampabay</title>
+      <title>TampaBay</title>
       <link>/tags/tampabay/</link>
       <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
       
@@ -93,11 +93,29 @@
     </item>
     
     <item>
-      <title>Test</title>
-      <link>/tags/test/</link>
-      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      <title>meta</title>
+      <link>/tags/meta/</link>
+      <pubDate>Tue, 18 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>/tags/test/</guid>
+      <guid>/tags/meta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project</title>
+      <link>/tags/project/</link>
+      <pubDate>Tue, 18 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/tags/about/</link>
+      <pubDate>Mon, 17 Jan 1994 08:32:00 -0500</pubDate>
+      
+      <guid>/tags/about/</guid>
       <description></description>
     </item>
     
