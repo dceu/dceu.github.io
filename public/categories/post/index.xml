@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>post on </title>
+    <link>/categories/post/</link>
+    <description>Recent content in post on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Two Sum Algorithms</title>
+      <link>/twosum/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/twosum/</guid>
+      <description>Introduction: This post begins my series on algorithms. We will explore a set of common problem archetypes, outline design elements, and finally analyze these solutions as coded in Java, along with the runtime complexity in Big O time.
+Problem Archetype: In the &amp;ldquo;Two Sum&amp;rdquo; problem, we are looking for two numbers that exist in a given array adding up to a given target number. For this instance, this array is unorderd, and has no dupes.</description>
+    </item>
+    
+    <item>
+      <title>MeetUp Challenge</title>
+      <link>/meetupchallenge/</link>
+      <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/meetupchallenge/</guid>
+      <description>MeetUps Being a social-recluse, when not confined to the depths of the restaurant kitchen night shifts for the past 4~ish years, I&amp;rsquo;m accustomed to a certain workplace culture.
+So for the next 3 months, and perhaps into the next year, I have added Tampa Bay Tech MeetUps to my calendar. Groups among these include Tampa Bay Java User Group (TJUG), Tampa Bay Brigade, Thinkful Tampa, Tampa Bay Agile (acceptance pending), Tampa Python, Barcamp, and more.</description>
+    </item>
+    
+  </channel>
+</rss>

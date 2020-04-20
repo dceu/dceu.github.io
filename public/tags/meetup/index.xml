@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MeetUp on </title>
+    <link>/tags/meetup/</link>
+    <description>Recent content in MeetUp on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MeetUp Challenge</title>
+      <link>/meetupchallenge/</link>
+      <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/meetupchallenge/</guid>
+      <description>MeetUps Being a social-recluse, when not confined to the depths of the restaurant kitchen night shifts for the past 4~ish years, I&amp;rsquo;m accustomed to a certain workplace culture.
+So for the next 3 months, and perhaps into the next year, I have added Tampa Bay Tech MeetUps to my calendar. Groups among these include Tampa Bay Java User Group (TJUG), Tampa Bay Brigade, Thinkful Tampa, Tampa Bay Agile (acceptance pending), Tampa Python, Barcamp, and more.</description>
+    </item>
+    
+  </channel>
+</rss>

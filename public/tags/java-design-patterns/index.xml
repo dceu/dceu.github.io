@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java Design Patterns on </title>
+    <link>/tags/java-design-patterns/</link>
+    <description>Recent content in Java Design Patterns on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/java-design-patterns/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mario Pset3</title>
+      <link>/mario3/</link>
+      <pubDate>Sun, 17 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/mario3/</guid>
+      <description>Mario Pset 3 Overview: In this problem set, we&amp;rsquo;re going to refactor so that a Pyramid class encapsulates the core logic. Next, ensure that the printer interface only accepts Pyramids. Will implement a &amp;ldquo;toString&amp;rdquo; method on the Pyramid object, overriding the methods inherited from the Object class built in to Java. Finally we&amp;rsquo;re going to implement the Factory Design Pattern to hide the instatiation of the Pyramid objects.
+Pyramid object In Java, everything is a sublcass of the Object class, and inherits all of its methods.</description>
+    </item>
+    
+  </channel>
+</rss>
